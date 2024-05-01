@@ -40,6 +40,10 @@ function validAnagram(str1, str2) {
 }
 console.log(validAnagram("anagram", "nagaram"));
 
+const word = "Hi THEer!!!";
+word.replace(/[^\w]/g, ""); // regular expression to remove extra spaces and punctuation
+console.log(word);
+
 function reverse(str) {
   //   let reverseString = "";
   for (let i = 0; i < str.length; i++) {
